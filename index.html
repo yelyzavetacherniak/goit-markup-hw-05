@@ -542,29 +542,30 @@
                             id="user-comment"
                             placeholder="Text input"></textarea>
                 </div>
-    
-            <!--
             <div class="modal-checkbox">
                 <input
-                    class="checkbox-privacy" 
+                    class="checkbox-privacy visually-hidden" 
                     type="checkbox"
                     id="user-privacy"
                     value="true"
-                    name="user-privacy"
-                    visually-hidden>
+                    name="user-privacy">
                 <label 
-                class="privacy-text"
-                for="user-privacy">
-                I accept the terms and conditions of the <span class="privacy-span"></span>
+                    class="privacy-text"
+                    for="user-privacy">
+                    <span class="privacy-span">
+                        <svg 
+                            class="modal-svg" 
+                            width="10" 
+                            height="8">
+                            <use href="./images/icons.svg#icon-checked"></use>
+                        </svg>
+                    </span>
+                    I accept the terms and conditions of the 
+                    <a href="" class="privacy-link">Privacy Police</a>
                 </label>
             </div>
--->
-
-
-
-
-           </form>
             <button class="modal-btn" type="submit">Send</button>
+           </form>
         </div>
     </div>
 </body>
