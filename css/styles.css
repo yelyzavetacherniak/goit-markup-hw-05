@@ -486,6 +486,12 @@ fill: #f4f4fd;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-footer:hover,
+.btn-footer:focus {
+    background-color: #404bbf;
 }
 
 .footer-svg {
@@ -494,8 +500,8 @@ fill: #f4f4fd;
 }
 
 .form-field {
-    margin: 0;
-    padding: 0 0 0 80px;
+    margin: 0 0 0 80px;
+    padding: 0;
 }
 
 /* BACKDROP AND MODAL */
@@ -719,4 +725,9 @@ margin-bottom: 16px;
     margin: 0 auto;
     display: block;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #404bbf;
 }
