@@ -437,6 +437,82 @@ fill: #f4f4fd;
    background-color: #31d0aa;
 }
 
+
+.form-field {
+padding: 0;
+margin: 0;
+
+}
+
+.footer-container {
+padding: 0;
+margin: 0;
+margin-right: 80px;;
+}
+
+.social-media {
+    padding: 0;
+    margin: 0;
+}
+.form-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+
+.input-footer {
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    padding-left: 16px;
+}
+
+.input-footer::placeholder {
+    color: #fff;
+}
+
+.btn-footer {
+    border-radius: 4px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-svg {
+    margin-left: 16px;
+    fill: #fff;
+}
+
+.footer-div {
+    display: flex;
+}
+
 /* BACKDROP AND MODAL */
 
 .backdrop {
@@ -590,15 +666,13 @@ margin-bottom: 16px;
     letter-spacing: 0.04em;
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .textarea-comment:focus {
     border-color: #4d5ae5;
 }
 
-.textarea-comment:placeholder-shown {
-    font-size: 12px;
-}
 
 .modal-checkbox {
     margin-bottom: 24px;
